@@ -7,33 +7,16 @@ This script was written in python while taking advantage of the Twitter API to p
 1. tweepy  2. config  3. csv  4. pandas
 
 <h3>Process:</h3>
-• First you create a configuration file where you can store your API key, API key secret, access key, access key, access key secret and bearer token.
-<br>
-<br>
-<a href="https://imgur.com/5YJBnrB"><img src="https://i.imgur.com/5YJBnrB.jpg" title="source: imgur.com" /></a><br>
-<br>
+• First you create a configuration file where you can store your keys and token.
+<a href="https://imgur.com/aHmJgUy"><img src="https://i.imgur.com/aHmJgUy.jpg" title="source: imgur.com" /></a><br>
 • Next we will create a new file, import the modules we will be using in this script and define a function for client authentication.<br>
-<br>
-<a href="https://imgur.com/OItIxs3"><img src="https://i.imgur.com/OItIxs3.jpg" title="source: imgur.com" /></a><br>
-<br>
+<a href="https://imgur.com/kmw0Gkr"><img src="https://i.imgur.com/kmw0Gkr.jpg" title="source: imgur.com" /></a>
 • Our next step is to define a function to parse the user data. We do this by first getting the user ID and then use that ID to pull the user's tweets.
-<br>
-<br>
-<a href="https://imgur.com/EraUK87"><img src="https://i.imgur.com/EraUK87.jpg" title="source: imgur.com" /></a>
-<br>
-<br>
+<a href="https://imgur.com/T8RsA5T"><img src="https://i.imgur.com/T8RsA5T.jpg" title="source: imgur.com" /></a>
 • We then create a data frame to clean up the data and output it to a CSV file.
-<br>
-<br>
-<a href="https://imgur.com/pBcBGx8"><img src="https://i.imgur.com/pBcBGx8.jpg" title="source: imgur.com" /></a>
-<br>
-<br>
+<a href="https://imgur.com/4Ha956W"><img src="https://i.imgur.com/4Ha956W.jpg" title="source: imgur.com" /></a>
 • For fun I created a with open statement that searches the CSV file for a list of strings. 
-<br>
-<br>
-<a href="https://imgur.com/b5DKHE1"><img src="https://i.imgur.com/b5DKHE1.jpg" title="source: imgur.com" /></a>
-<br>
-<br>
+<a href="https://imgur.com/arJpgwl"><img src="https://i.imgur.com/arJpgwl.jpg" title="source: imgur.com" /></a>
 <h3>Lessons Learned:</h3>
 1. When using the Tweepy module, you have to make sure you are using the right parameters per client Method. You can find the <a href="https://docs.tweepy.org/en/stable/client.html> Tweepy documentation here.</a>
 <br>
