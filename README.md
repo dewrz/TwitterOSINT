@@ -4,10 +4,7 @@ Utilizing python and the Twitter API to parse data for OSINT.
 This script was written in python while taking advantage of the Twitter API to pull data and output it to a CSV file for reconnaissance purposes when completing a penetration test. You will need to sign up for a Twitter Developer account so you can utilize the API key, access and bearer tokens to authenticate with the API. You can sign up for a Twitter Developers account <a href="https://developer.twitter.com/en/support/twitter-api/developer-account">here</a>.
 
 <h3>Modules Used:</h3>
-1. tweepy<br>
-2. config<br>
-3. csv<br>
-4. pandas<br>
+1. tweepy  2. config  3. csv  4. pandas
 
 <h3>Process:</h3>
 • First you create a configuration file where you can store your API key, API key secret, access key, access key, access key secret and bearer token.
