@@ -24,7 +24,8 @@ This script was written in python while taking advantage of the Twitter API to p
 
 <h3>Lessons Learned:</h3>
 • When using the Tweepy module, you have to make sure you are using the right parameters per client Method. You can find the <a href="https://docs.tweepy.org/en/stable/client.html"> Tweepy documentation here.</a>
-
+<br>
+<br>
 • When using the standard Twitter developer account you are limited to the amount of data you can parse montly. You can apply for an elevated or academic account which raises that ceiling. 
 
 
