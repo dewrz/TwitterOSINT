@@ -39,5 +39,16 @@ This script was written in python while taking advantage of the Twitter API to p
 <br>
 2. When using the standard Twitter developer account you are limited to the amount of data you can parse montly. You can apply for an elevated or academic account which raises that ceiling. 
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
